@@ -1,0 +1,79 @@
+/* Reset default browser styles */
+body, h1, h2, form, label, input, button, select, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:red;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color:greenyellow;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Submit Form Styles */
+#search {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#search h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#search label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#location, #budget, #property_type {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:greenyellow;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color:red;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:greenyellow;
+    color: red;
+}
+footer a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}

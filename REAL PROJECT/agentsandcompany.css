@@ -1,0 +1,104 @@
+/* Reset default browser styles */body, h1, h2, form, label, input, button, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:orchid;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: orange;
+    color: orchid;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+nav ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: orchid;
+}
+
+/* Submit Form Styles */
+#submit-agents-companies {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#submit-agents-companies h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#submit-agents-companies label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#agent_name, #company_name {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit-agents-companies button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    color: orchid;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Search Results Styles (Placeholder) */
+#search-results {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: orange
+    ;
+    color: orchid;
+}
+footer a {
+    text-decoration: none;
+    color: orchid;
+    font-weight: bold;
+}

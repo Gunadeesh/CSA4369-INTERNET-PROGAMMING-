@@ -1,0 +1,72 @@
+
+/* Reset default browser styles */
+body, h2, form, label, input, button {
+    margin: 0;
+    padding: 0;
+    color:orchid;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the login form container */
+#login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form header */
+#login-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* Style the form labels */
+#login-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Style the form input fields */
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the form submit button */
+#login-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:lavender;
+    color:orchid;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* Style the footer */
+footer {
+    background-color:lavender;
+    color:orchid;
+    text-align: center;
+    padding: 10px;
+}
+footer a {
+    text-decoration: none;
+    color:orchid;
+    font-weight: bold;
+}

@@ -1,0 +1,95 @@
+/* Reset default browser styles */
+body, h2, form, label, input, button, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:orchid;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: orange;
+    color:yellow;
+    text-align: center;
+    padding: 20px 0;
+}
+header h1 {
+    font-size: 28px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:yellow;
+    font-weight: bold;
+}
+/* Navigation Styles */
+
+/* Submit Form Styles */
+#search-agents-companies {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#search-agents-companies h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#search-agents-companies label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#search-agent, #search-company {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-agents-companies button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: lavender;
+    color:orchid;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Search Results Styles (Placeholder) */
+#search-results {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+    color: yellow;
+}
+footer a {
+    text-decoration: none;
+    color:yellow;
+    font-weight: bold;
+}

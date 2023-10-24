@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Online Real Estate Service</title>
+    <link rel="stylesheet" type="text/css" href="searchstyles.css">
+</head>
+<body  background="BACKGROUNDAGENTS.jpg">
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Our Real Estate Service</h1>
+    </header>
+
+    <section id="search">
+        <h2>Find Your Dream Property</h2>
+        <form action="search.php" method="POST">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="budget">Budget:</label>
+            <input type="text" id="budget" name="budget" required>
+
+            <label for="property_type">Property Type:</label>
+            <select id="property_type" name="property_type">
+                <option value="house">House</option>
+                <option value="land">Land</option>
+            </select>
+            <button type="submit" name="submit">SUBMIT</button>
+        </form>
+    </section>
+    <br>
+    <br>
+    <!-- Footer -->
+    <footer>
+        <br>
+        <a href="main.html">HOME PAGE</a>
+        <br>
+        <p>&copy; 2023 Online Real Estate Service</p>
+    </footer>
+</body>
+</html>
