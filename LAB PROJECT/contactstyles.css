@@ -1,0 +1,100 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, address, form, input, textarea, button, iframe {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style the header with the page title and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the sections for contact information, location, and contact form */
+section {
+    padding: 2rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Style the contact information (address, phone, and email) */
+address p {
+    margin: 0.5rem 0;
+}
+
+/* Style the Google Maps iframe */
+iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+/* Style the contact form */
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Add additional styling or customize the colors and fonts to match your design. */
