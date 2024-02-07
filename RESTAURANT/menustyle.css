@@ -1,0 +1,98 @@
+.image
+{
+    background-color: pink;
+        padding-top:20px;
+        margin: 50px;
+        padding-left: 50px;
+        border-radius: 8px;
+        text-align: center;
+}
+.id
+{
+  color: lavender;
+}
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color:skyblue ;
+    line-height: 1.6;
+}
+
+/* Style the header with the restaurant name and navigation */
+header {
+    background-color:#e800ff38;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the sections for each menu category */
+section {
+    padding: 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Style individual menu items */
+.menu-item {
+    display: inline-block;
+    margin: 0 1rem 1.5rem 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-item h3 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Style the footer with contact information */
+footer {
+    background-color:orange;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    
+}
+
+/* Add additional styling or customize the colors and fonts to match your design. */

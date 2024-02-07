@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="contactstyles.css"> <!-- Link to your CSS stylesheet -->
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <!-- Add links to other pages here -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact-info">
+        <h2>Contact Information</h2>
+        <address>
+            <p>BIGG BOSS</p>
+            <p>SAVEETHA SCHOOL OF ENGINEERING</p>
+            <p>SAVEETHA NAGAR.THANDALAM,CHENNAI</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: BB@RESTAURANT.COM</p>
+        </address>
+    </section>
+
+    <section id="contact-form">
+        <h2>Contact Form</h2>
+        <form action="process_contact_form.php" method="post"> <!-- Replace with your form processing script -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <!-- Add footer content here -->
+    </footer>
+</body>
+</html>
